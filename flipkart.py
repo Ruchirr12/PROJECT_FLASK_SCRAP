@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen
 import re
 import pymongo
+import gunicorn
 
 app = Flask(__name__)
 
